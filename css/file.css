@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+	padding: 16px;
+}
+
+.carousel {
+    height: 70%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.parallax {
+  background-image: url("../image/Husky6.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: justified;
+  padding: 15px;
+}
